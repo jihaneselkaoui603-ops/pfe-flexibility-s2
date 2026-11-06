@@ -31,7 +31,6 @@ Without `--baseline`, the script generates a **synthetic fallback profile**; res
 - Economic parameters (investment cost, discount rate, 15-year horizon) are illustrative assumptions.
 - This script follows a load-shifting method that differs from scenario S2 of the final report in some respects (for example, kitchen loads are not shifted here). Figures in the report come from the full project pipeline and are not reproduced by running this script alone.
 - Thermal model: single time constant, no building simulation.
-- AI assistance: [state how you used an AI assistant when writing this code, and what you checked yourself].
 
 ## Author
 
