@@ -19,7 +19,7 @@ It is a deterministic, rule-based algorithm (no optimisation solver).
 
 ```bash
 pip install -r requirements.txt
-python S2_load_shifting.py --baseline baseline_S0.csv --out results
+python S2_load_shifting.py --out results
 ```
 
 `baseline_S0.csv` must have 8,760 rows and the columns `CVC, ECS, Cuisine, Eclairage, Buanderie, Autres` (kW, hourly), plus an optional `T_ext` column (outdoor temperature, °C).
